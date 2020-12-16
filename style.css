@@ -16,9 +16,9 @@ body{
 
 .i-medium{
 	position : absolute;
-    top: 40px; right: 0; bottom: 0; left: 0;
-    height: 2150px;
-    width: 1200px;
+    	top: 40px; right: 0; bottom: 0; left: 0;
+    	width: 1200px;
+	max-height: auto;
 }
 .i-medium {
 	background: url("img/milieu.png") repeat 0px 0px;
