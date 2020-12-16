@@ -1,0 +1,75 @@
+body{
+    background-image: url("img/fond.png");
+    background-size: auto;
+    font-family: Christmas2;
+}
+
+@font-face {
+	font-family: Christmas;
+	src: url('font/Christmas\ Bell\ -\ Personal\ Use.otf');
+}
+
+@font-face {
+	font-family: Christmas2;
+	src: url('font/PWHappyChristmas.ttf');
+}
+
+.i-medium{
+	position : absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    height: 2100px;
+    width: 1200px;
+}
+.i-medium {
+	background: url("img/milieu.png") repeat 0px 0px;
+	-webkit-animation: dropFlowParticles 12s linear infinite;
+	     -o-animation: dropFlowParticles 12s linear infinite;
+	        animation: dropFlowParticles 12s linear infinite;
+}
+ 
+@-webkit-keyframes dropFlowParticles {
+	from { background-position: 0 0; }
+	to { background-position: 0 413px; }
+}
+@keyframes dropFlowParticles {
+	from { background-position: 0 0; }
+	to { background-position: 0 413px; }
+}
+
+.text1{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    font-size: 250px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    transform: rotate(8deg);
+}
+
+.text2{
+    position: absolute;
+    top: 330px;
+    left: 300px;
+    font-size: 250px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+.text3{
+    position: absolute;
+    top: 620px;
+    left: 20px;
+    font-size: 275px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    transform: rotate(-8deg);
+}
+
+.carte{
+    position: absolute;
+    left: 200px;
+    top: 1200px;
+}
