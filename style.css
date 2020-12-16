@@ -17,8 +17,8 @@ body{
 .i-medium{
 	position : absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    height: 2100px;
-    width: 1200px;
+    height: 2200px;
+    width: 1300px;
 }
 .i-medium {
 	background: url("img/milieu.png") repeat 0px 0px;
